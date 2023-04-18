@@ -1,4 +1,0 @@
-export enum AddButtonType {
-	NEXT_ACTION = 'NEXT_ACTION',
-	FIRST_LOOP_ACTION = 'FIRST_LOOP_ACTION',
-}

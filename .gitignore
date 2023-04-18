@@ -1,29 +1,14 @@
-.gradle
-build/
-.history/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-dist/
-coverage/
-node_modules/
-
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
 dist
 tmp
 /out-tsc
+.env
+firebase-admin-sdk.json
+
+# SDK Build
+builds
 
 # dependencies
 node_modules
@@ -39,7 +24,10 @@ node_modules
 
 # IDE - VSCode
 .vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
 !.vscode/launch.json
+!.vscode/extensions.json
 
 # misc
 /.sass-cache
@@ -55,5 +43,7 @@ testem.log
 .DS_Store
 Thumbs.db
 
-.pnpm-store
-packages/backend/resources/activepieces-engine.js
+.angular
+activepieces-engine.js
+.history/
+packages/backend/.env
