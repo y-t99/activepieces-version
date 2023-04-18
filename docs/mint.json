@@ -1,0 +1,137 @@
+{
+  "name": "Activepieces",
+  "logo": {
+    "light": "./resources/logo/light.svg",
+    "dark": "./resources/logo/dark.svg"
+  },
+  "favicon": "./resources/favicon.png",
+  "colors": {
+    "primary": "#5155D7",
+    "dark": "#3033A6",
+    "light": "#6D72F6",
+    "background": {
+      "dark": "#121212"
+    }
+  },
+  "topbarCtaButton": {
+    "type": "github",
+    "url": "https://github.com/activepieces/activepieces"
+  },
+  "topbarLinks": [
+    {
+      "name": "Main Site",
+      "url": "https://www.activepieces.com"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Pieces",
+      "icon": "plug",
+      "url": "pieces"
+    },
+    {
+      "name": "Self-hosting",
+      "icon": "server",
+      "url": "self-hosting"
+    },
+    {
+      "name": "Contributing",
+      "icon": "code",
+      "url": "contributing"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://discord.gg/2jUXBKDdP8"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": [
+        "getting-started/introduction",
+        "getting-started/quickstart"
+      ]
+    },
+    {
+      "group": "Pieces",
+      "pages": [
+        "pieces/overview",
+        "pieces/custom-pieces"
+      ]
+    },
+    {
+      "group": "Flow Controls",
+      "pages": [
+        "pieces/flow-controls/loop",
+        "pieces/flow-controls/branch"
+      ]
+    },
+    {
+      "group": "Helpers",
+      "pages": [
+        "pieces/helpers/http-request",
+        "pieces/helpers/code",
+        "pieces/helpers/storage"
+      ]
+    },
+    {
+      "group": "Apps",
+      "pages": [
+        "pieces/apps/slack",
+        "pieces/apps/discord"
+      ]
+    },
+    {
+      "group": "Self Hosting",
+      "pages": [
+        "self-hosting/overview"
+      ]
+    },
+    {
+      "group": "Deployment Options",
+      "pages": [
+        "self-hosting/deployments/docker-compose"
+      ]
+    },
+    {
+      "group": "Configurations",
+      "pages": [
+        "self-hosting/configurations/env-vars"
+      ]
+    },
+    {
+      "group": "Building Flows",
+      "pages": [
+        "building-flows/overview",
+        "building-flows/triggers",
+        "building-flows/passing-data",
+        "building-flows/debugging"
+      ]
+    },
+    {
+      "group": "Contributing",
+      "pages": [
+        "contributing/overview",
+        "contributing/repo-structure",
+        "contributing/local-development"
+      ]
+    },
+    {
+      "group": "Building Pieces",
+      "pages": [
+        "contributing/building-pieces/quickstart",
+        "contributing/building-pieces/examples"
+      ]
+    },
+    {
+      "group": "Other",
+      "pages": ["changelog", "license"]
+    }
+  ],
+  "analytics": {
+    "posthog": {
+        "apiKey": "phc_TXdpocbYTeZVm5VJmMzHTMrCofBQu3e0kN7HGMNGTVW"
+    }
+  }
+}
